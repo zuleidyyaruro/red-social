@@ -1,0 +1,27 @@
+{
+  "name": "red-social-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./testing/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SheykoWk/red-social.git"
+  },
+  "author": "Sh3yk0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SheykoWk/red-social/issues"
+  },
+  "homepage": "https://github.com/SheykoWk/red-social#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
